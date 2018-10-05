@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transaction href="https://your-subdomain.recurly.com/v2/transactions/37bff9ddc1e468a59f6fef417cb32281" type="credit_card">
+  <account href="https://your-subdomain.recurly.com/v2/accounts/1"/>
+  <invoice href="https://your-subdomain.recurly.com/v2/invoices/1006"/>
+  <subscriptions href="https://your-subdomain.recurly.com/v2/transactions/37bff9ddc1e468a59f6fef417cb32281/subscriptions"/>
+  <original_transaction href="https://your-subdomain.recurly.com/v2/transactions/37bfef7b3873aed2af2a3d4d35878e5f"/>
+  <uuid>37bff9ddc1e468a59f6fef417cb32281</uuid>
+  <action>refund</action>
+  <amount_in_cents type="integer">870</amount_in_cents>
+  <tax_in_cents type="integer">70</tax_in_cents>
+  <currency>EUR</currency>
+  <status>success</status>
+  <payment_method>credit_card</payment_method>
+  <reference>1171163</reference>
+  <source>subscription</source>
+  <recurring type="boolean">false</recurring>
+  <test type="boolean">true</test>
+  <voidable type="boolean">true</voidable>
+  <refundable type="boolean">false</refundable>
+  <ip_address nil="nil"/>
+  <cvv_result code="" nil="nil"/>
+  <avs_result code="D">Street address and postal code match.</avs_result>
+  <avs_result_street nil="nil"/>
+  <avs_result_postal nil="nil"/>
+  <created_at type="datetime">2016-08-03T16:13:44Z</created_at>
+  <updated_at type="datetime">2016-08-03T16:13:44Z</updated_at>
+  <details>
+    <account>
+      <account_code>1</account_code>
+      <first_name>Verena</first_name>
+      <last_name>Example</last_name>
+      <company>Recurly Inc</company>
+      <email>verena@example.com</email>
+      <billing_info type="credit_card">
+        <first_name>Verena</first_name>
+        <last_name>Example</last_name>
+        <address1>123 Main St.</address1>
+        <address2 nil="nil"/>
+        <city>San Francisco</city>
+        <state>CA</state>
+        <zip>94105</zip>
+        <country>US</country>
+        <phone nil="nil"/>
+        <vat_number nil="nil"/>
+        <card_type>Visa</card_type>
+        <year type="integer">2019</year>
+        <month type="integer">12</month>
+        <first_six>411111</first_six>
+        <last_four>1111</last_four>
+      </billing_info>
+    </account>
+  </details>
+  <a name="refund" href="https://your-subdomain.recurly.com/v2/transactions/37bff9ddc1e468a59f6fef417cb32281" method="delete"/>
+</transaction>

@@ -1,0 +1,56 @@
+{
+  "headers": { "content-type": "application/xml" },
+  "transaction": {
+    "account": "",
+    "invoice": "",
+    "subscriptions": "",
+    "original_transaction": "",
+    "uuid": "37bff9ddc1e468a59f6fef417cb32281",
+    "action": "refund",
+    "amount_in_cents": 870,
+    "tax_in_cents": 70,
+    "currency": "EUR",
+    "status": "success",
+    "payment_method": "credit_card",
+    "reference": 1171163,
+    "source": "subscription",
+    "recurring": false,
+    "test": true,
+    "voidable": true,
+    "refundable": false,
+    "ip_address": "",
+    "cvv_result": "",
+    "avs_result": "Street address and postal code match.",
+    "avs_result_street": "",
+    "avs_result_postal": "",
+    "created_at": 1470240824000,
+    "updated_at": 1470240824000,
+    "details": {
+      "account": {
+        "account_code": 1,
+        "first_name": "Verena",
+        "last_name": "Example",
+        "company": "Recurly Inc",
+        "email": "verena@example.com",
+        "billing_info": {
+          "first_name": "Verena",
+          "last_name": "Example",
+          "address1": "123 Main St.",
+          "address2": "",
+          "city": "San Francisco",
+          "state": "CA",
+          "zip": 94105,
+          "country": "US",
+          "phone": "",
+          "vat_number": "",
+          "card_type": "Visa",
+          "year": 2019,
+          "month": 12,
+          "first_six": 411111,
+          "last_four": 1111
+        }
+      }
+    },
+    "a": ""
+  }
+}

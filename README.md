@@ -195,3 +195,21 @@ recurly.subscriptions.reactivate(uuid, cb);
 recurly.subscriptions.terminate(uuid, refundType, charge, cb);
 recurly.subscriptions.postpone(uuid, nextRenewalDate, bulk, cb);
 ```
+
+## [Transactions](https://dev.recurly.com/docs/transaction-object)
+```js
+recurly.transactions.list(cb);
+recurly.transactions.create(body, cb);
+recurly.transactions.listByAccount(accountCode, cb);
+recurly.transactions.get(uuid, cb);
+recurly.transactions.refund(uuid, cb);
+```
+
+## [Usage Records](https://dev.recurly.com/docs/usage-record-object)
+```js
+recurly.usageRecords.list(accountCode, cb);
+recurly.usageRecords.lookup(uuid, cb);
+recurly.usageRecords.update(uuid, body, cb);
+recurly.usageRecords.log(uuid, addOnCode, cb);
+recurly.usageRecords.delete(uuid, cb);
+```

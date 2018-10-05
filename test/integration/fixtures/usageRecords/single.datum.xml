@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usage href="">
+    <measured_unit href=""/>
+    <amount type="integer">1</amount>
+    <merchant_tag>Order ID: 4939853977878713</merchant_tag>
+    <recording_timestamp type="date">2016-04-15T23:09:04+00:00</recording_timestamp>
+    <usage_timestamp type="date">2016-04-15T23:08:15+00:00</usage_timestamp>
+    <created_at type="date">2016-04-15T23:09:30+00:00</created_at>
+    <billed_at nil="nil"></billed_at>
+    <usage_type>price</usage_type>
+    <unit_amount_in_cents type="integer">60</unit_amount_in_cents>
+    <usage_percentage nil="nil"></usage_percentage>
+</usage>

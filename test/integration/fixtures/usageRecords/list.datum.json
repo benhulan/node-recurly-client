@@ -1,0 +1,18 @@
+{
+  "usages": [
+    { "usage": {
+        "measured_unit": "",
+        "amount": 1,
+        "merchant_tag": "Order ID: 4939853977878713",
+        "recording_timestamp": "2016-04-15T23:09:04+00:00",
+        "usage_timestamp": "2016-04-15T23:08:15+00:00",
+        "created_at": "2016-04-15T23:09:30+00:00",
+        "billed_at": "",
+        "usage_type": "price",
+        "unit_amount_in_cents": 60,
+        "usage_percentage": ""
+      }
+    }
+  ],
+  "headers": { "content-type": "application/xml" }
+}
